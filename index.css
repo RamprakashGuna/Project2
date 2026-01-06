@@ -269,7 +269,7 @@ width: 120px;
   border-radius: 20px;
   width: 140px;
   align-items: center;
-  margin-left: 60px;
+  margin-left: 90px;
   border: solid  rgba(212, 207, 207, 0.763);
   font-weight: bold;
 
@@ -450,16 +450,16 @@ transform: scale(1.1);
   margin: auto;
 }
 .im{
-  height: 30px;
-  width: 30px;
+  height: 35px;
+  width: 35px;
   position: absolute;
-  top: 3730px;
+  top: 3710px;
 }
 .iml{
-  height: 30px;
-  width: 30px;
+  height: 35px;
+  width: 35px;
   position: absolute;
-  top: 3560px;
+  top: 3550px;
 }
 
 .social {
@@ -526,7 +526,7 @@ body {
 .nav-links {
     position: absolute;
     top: 100%;
-    left:390px;
+    left:400px;
     background: #000;
     flex-direction: column;
     gap: 18px;
@@ -597,6 +597,15 @@ body {
 .contact{
   display: flex;
   flex-direction: column;
+}
+.social {
+  height: 120px;
+  border-radius: 50%;
+background: linear-gradient(179.8deg, #090909 42.21%, #306B98 84.03%, #3CABEF 99.82%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:40px;
 }
 .im,.iml{
  display: none;
